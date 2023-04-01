@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(231, 171, 154);
+}
+/* hero background image */
+.hero_title {
+    padding-top: 5%;
+    font-size: 4.5rem;
+    text-align: center;
+    font-weight: bolder;
+ 
+}
+.bgimage {
+    background: url('images/b.png');
+    background-size:cover;
+    height: 120vh ;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+    position:relative;            
+      
+}
+.back{
+    background-color: #74d2f7;
+}
+.khadi{
+            background-color: azure;
+            
+    text-align: justify;
+   
+}
+#bv{
+  background-color: azure;
+
+    text-align: justify;
+  
+}
+#imag{
+  background-color: azure;
+
+
+}
+h2{
+    text-align: center;
+    font-weight: 900;
+}
+
+h3{
+    padding-left: 10%;
+    text-align: justify;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+h4{
+    text-align: justify;
+    font-size: 1.5rem;
+    font-weight: bold; 
+}
+
+p{
+    
+    text-align: justify;
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 10%;
+    padding-right: 20%;
+}
+.likhadi{
+    list-style-type:none;
+    padding-left: 10%;
+    padding-right: 20%;
+    font-weight: 700;
+}
+
+
+
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+
+
+.resources-item {
+   
+    background: #f6f6f6;
+    cursor: pointer;
+    margin: 30px 0;
+    padding: 7px 7px 20px;
+    text-align: center;
+  }
+  .resources-item .resources-category-image {
+    height: 200px;
+    overflow: hidden;
+  }
+  .resources-description h4 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "open sans condensed", sans-serif;
+  }
+  .resources-item .resources-description p {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  .photos-page.filter-bar {
+    margin-top: 100px;
+  }
+  .input-group #table_filter.form-control {
+    border-radius: 0;
+    border-color: rgb(245, 198, 236);
+    line-height: 20px;
+  }
+  .selectize-dropdown [data-selectable], 
+  .selectize-dropdown .optgroup-header {
+    background-color: rgb(245, 198, 236);
+  }
+  .photos-page.filter-bar input#table_filter {
+    height: 45px;
+    border-radius: 0;
+    line-height: 22px;
+    border-color: rgb(245, 198, 236);
+  }
+  .input-group-btn #searchBtn {
+    height: 45px;
+    padding: 0 16px;
+    font-size: 1.4rem;
+    background-color: #00bff3;
+    color: rgb(245, 198, 236);
+  }
+  .form-group .selectize-input {
+    height: 45px !important;
+    border-radius: 0;
+  }
+  .form-group .selectize-input .item {
+    line-height: 26px;
+  }
+  .photos-bottom-section ul.pagination {
+    float: right;
+  }
+  .photos-bottom-section #pagingTotal.news-results {
+    margin-top: 0;
+    text-align: center;
+  }
+  .photos-bottom-section .news-filter {
+    margin-top: 5px;
+  }
+  .photos-blue-border {
+    margin-top: 30px;
+  }
+  .photos-bottom-section {
+    margin-bottom: 80px;
+  }
+  .pagination>li:last-child>a, 
+  .pagination>li:last-child>span {
+    border-radius: 0;
+  }
+  .selectize-input.items {
+    border-radius: 0;
+  }
